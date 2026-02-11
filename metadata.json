@@ -1,0 +1,7 @@
+{
+  "name": "Bright Smile Dental AI",
+  "description": "Professional AI Voice Agent for Bright Smile Dental Clinic in Riyadh, Saudi Arabia, powered by Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
