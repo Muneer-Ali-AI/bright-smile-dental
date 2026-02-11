@@ -206,7 +206,7 @@ const App: React.FC = () => {
               onClick={status === CallStatus.IDLE ? startCall : stopCall}
               disabled={status === CallStatus.CONNECTING}
               className={`relative z-10 w-24 h-24 rounded-full flex items-center justify-center shadow-2xl transition-all duration-300 transform active:scale-90 ${status === CallStatus.IDLE ? 'bg-blue-600 hover:bg-blue-700' :
-                  status === CallStatus.ACTIVE ? 'bg-red-500 hover:bg-red-600' : 'bg-slate-400'
+                status === CallStatus.ACTIVE ? 'bg-red-500 hover:bg-red-600' : 'bg-slate-400'
                 }`}
             >
               {status === CallStatus.IDLE ? (
